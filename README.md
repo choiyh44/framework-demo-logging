@@ -13,5 +13,5 @@
     - 이 경우 src/main/resources 디렉토리 아래에 logback-spring.xml, logback-spring.groovy, logback.xml, logback.groovy 이름으로 설정파일을 작성하거나
     - logging.config 프로퍼티에 설정한 경로명으로 설정파일을 작성한다.
     - 비추천되는 명칭은 logback.xml이다. 이 이름으로 설정파일 작성하면 spring boot이 logback extension을 사용할 수 없으므로 절대 이 이름으로 설정파일 작성하지 말자.
-    - 별도의 logback 설정을 작성할때도 스프링부트에서 제공하는 설정파일을 <include>해서 활용하면 수고를 절약할 수 있다.
+    - 별도의 logback 설정을 작성할때도 스프링부트에서 제공하는 설정파일을 include 해서 활용하면 수고를 절약할 수 있다.
     
